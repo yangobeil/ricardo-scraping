@@ -33,7 +33,7 @@ try:
     # extract list of recipes on website
     downloaded_recipes = []
     for i in range(num_pages):
-        search_url = f"https://www.ricardocuisine.com/recherche/mot-cle//page/{str(i+1)}"
+        search_url = "https://www.ricardocuisine.com/recherche/mot-cle//page/{}".format(str(i+1))
         page = requests.get(search_url)
         soup = BeautifulSoup(page.content, features="lxml")
         for element in soup.find('div', {'id': 'search-results'}).find_all('a', {'class': 'parent'}):
