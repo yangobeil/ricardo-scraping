@@ -4,8 +4,9 @@ Code to find new recipes on Ricardo and send an email with the new ones. This is
 
 Don't forget to do
 ```
-pip install requirements.txt
+pip3 install requirements.txt
 ```
+and use python3 on the raspberry pi
 
 Need to have a .env file with the following variables:
 - SENDER_EMAIL_ADDRESS
