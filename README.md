@@ -13,5 +13,7 @@ Need to have a .env file with the following variables:
 - SENDER_EMAIL_PASSWORD
 - RECEIVER_EMAIL_ADDRESS
 
-To set a cron task on the raspberry pi, follow these steps:
-1. 
+To set a cron task on the raspberry pi, use the command
+```
+crontab -e
+```
