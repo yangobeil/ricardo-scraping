@@ -73,7 +73,7 @@ def create_email(new_recipes, error):
         html = ""
         for item in new_recipes:
             text = text + item['title'] + "\n\n"
-            html = html + f"<a href='{item['url']}'>{item['title']}</a></br></br>"
+            html = html + "<a href='{}'>{}</a></br></br>".format(item['url'], item['title'])
     return text, html
 
 
