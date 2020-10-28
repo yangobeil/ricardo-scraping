@@ -1,4 +1,3 @@
-# inspired by https://realpython.com/python-send-email/
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os
@@ -44,7 +43,7 @@ try:
 
     # extract list of recipes on website
     downloaded_recipes = []
-    for i in range(4):
+    for i in range(5):
         search_url = "https://www.ricardocuisine.com/recherche/mot-cle//page/{}".format(str(i+1))
         page = requests.get(search_url)
         soup = BeautifulSoup(page.content, features="lxml")
