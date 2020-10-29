@@ -10,4 +10,5 @@ Need to have a .env file with the following variables:
 - MONGO_PASSWORD
 
 The email part is inspired by [this](https://realpython.com/python-send-email/) and the heroku scheduler 
-by [this](https://medium.com/analytics-vidhya/schedule-a-python-script-on-heroku-a978b2f91ca8).
+by [this](https://medium.com/analytics-vidhya/schedule-a-python-script-on-heroku-a978b2f91ca8). For info about 534 
+errors sent by gmail, see [this](https://serverfault.com/questions/635139/how-to-fix-send-mail-authorization-failed-534-5-7-14).
