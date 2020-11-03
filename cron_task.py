@@ -55,7 +55,7 @@ try:
             downloaded_recipes.append(recipe_data)
         if i % 25 == 0:
             print(i)
-        time.sleep(5)
+        time.sleep(10)
 
     print(len(downloaded_recipes))
     old_recipes_titles = [item['title'] for item in old_recipes]
